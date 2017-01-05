@@ -1,0 +1,16 @@
+{
+  "title": "Devtools Performer",
+  "name": "devtools-performer",
+  "version": "0.0.1",
+  "description": "Measure performance of Firefox Devtools",
+  "main": "index.js",
+  "author": "Jarda Snajdr <jsnajdr@gmail.com>",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "jetpack"
+  ]
+}
