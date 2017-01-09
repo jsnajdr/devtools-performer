@@ -18,3 +18,28 @@ Contributors are welcome! Some first ideas for enhancements:
 - replace the primitive results display in a tooltip with a nice formatted Panel
 - add more common actions, like "do X measurements in a row"
 - add support for measuring other tools, not only Netmonitor
+
+## More detailed install instruction
+
+### Get the addon
+
+Get addon source from github
+
+```
+$ git clone https://github.com/jsnajdr/devtools-performer.git
+$ cd devtools-performer
+```
+
+### Compile addon
+
+Compile with jpm tool
+
+```
+$ npm install -g jpm
+$ jpm xpi
+```
+
+### Install addon
+Go to Firefox `about:config` page and set `xpinstall.signatures.required` to `false`.
+
+Drag `devtools-performer.xpi` to firefox to install it.
